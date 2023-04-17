@@ -1,0 +1,303 @@
+
+body{
+    min-height: 100vh;
+}
+
+
+header{
+    width: 90%;
+    
+    background-color: white;
+
+    border-bottom: 2px solid rgba(228, 227, 225, 0.459); 
+    padding: 20px 0;
+
+    margin: 0 auto;
+}
+
+header nav{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.header__div-1{
+   display: flex;
+
+   align-items: center;
+   gap: 10px;
+}
+
+.header__div-1 div{
+    background-color: blueviolet;
+    
+    width: 16px;
+    height: 16px;
+    
+    border-radius: 50%;
+}
+
+.header__div-1 h1{
+ font-size: var(--font-title-3);
+ font-weight: var(--font-weight-1);
+}
+
+.header__div-2{
+    display: flex;
+    gap: 5px;
+}
+
+
+.button__login{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 142px;
+    max-height: 48px;
+  
+     padding: 12px 27px; 
+
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-1);
+
+    color: var(--color-grey-5);
+    border: 2px solid var(--color-1);
+    background-color: var(--color-5);
+    color: var(--color-1);
+
+    opacity: 90%;
+
+    cursor: pointer;
+}
+
+
+/* MAIN */
+
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    min-height: 50vh;
+}
+
+main section{
+    position: relative;
+
+    display: flex;
+    
+    
+    flex-direction: column;
+
+    width: 100%;
+
+    border: solid 2px rgb(243, 242, 242);
+
+
+
+    padding: 20px;
+
+    margin-top: 40px;
+
+   
+
+}
+
+
+main section h2{
+   
+
+    font-size: var(--font-title-1);
+    font-weight: var(--font-weight-1);
+
+    
+    margin-bottom: 20px;
+   
+
+
+}
+
+main section div div{
+    display: flex;
+    width: 100%;
+
+}
+
+main section div div span{
+   
+    font-size: var(--font-title-4);
+   
+    margin-right: 10%;
+
+}
+
+
+main section div img{
+   
+    position: absolute;
+    top: 40px;
+    right: 30px;
+
+    cursor: pointer;
+
+}
+
+
+#empresas{
+
+    max-width: 1200px;
+
+    min-height: 50vh;
+    
+    background-color: rgb(240, 239, 239);
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+/* MODAL */
+
+dialog{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 20px;
+}
+
+form input{
+
+    font-size: 20px;
+    padding: 10px;
+    
+
+}
+
+
+
+form h2{
+
+    font-size:var(--font-title-1);
+    font-weight: var(--font-weight-1);
+    padding: 10px;
+    
+
+}
+
+
+
+
+
+button {
+
+    padding: 10px;
+    font-size: 18px;
+    background-color: var(--color-1);
+    border: solid 2px var(--color-1);
+    color: white;
+
+    opacity: 90%;
+
+
+}
+
+button:hover{
+
+    opacity: 1;
+
+}
+
+
+#buttonFechar{
+
+    font-size: 18px;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: black;
+
+}
+
+ul{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+
+    background-color: rgb(255, 253, 253);
+
+    margin: 20px;
+    padding: 10px 15px;
+
+    width: 100%;
+    max-width: 300px;
+
+    border: solid 1px var(--color-1);
+
+}
+   
+
+
+
+h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+#departaments_funcionarios{
+
+    width: 100%;
+
+    background-color: rgb(243, 241, 241);
+    padding: 0;
+
+}
+
+#departaments_funcionarios div h2{
+
+   padding-top: 15px;
+
+}
+
+#departaments_funcionarios div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: var(--color-1); */
+
+    padding: 10px;
+
+
+
+
+}

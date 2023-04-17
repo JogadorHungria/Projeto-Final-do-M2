@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/global.css">
+    <link rel="stylesheet" href="./style/index.css">
+
+    <script type="module" src="./scripts/index.js" defer></script>
+
+    <title>Cadastro</title>
+
+</head>
+<body>
+    
+    <header>
+        <nav>
+
+            <div class="header__div-1">
+                <div></div>
+                <h1>Gestão de empresas</h1>
+            </div>
+            
+            <div class="header__div-2">
+
+                <a href="../home/index.html" class="button__home">Home</a>
+                <a href="../login/index.html" class="button__login">Login</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <form>
+            <h2>Cadastre-se</h2>
+
+            <input name="username" placeholder="Seu nome" type="text">
+
+            <input name="password" placeholder="Sua Senha" type="password">
+
+            <input name="email" placeholder="Seu e-mail" type="text">
+
+            <select name="professional_level">
+
+                <option value="">Nível profissional</option>
+                <option value="estágio">Estágio</option>
+                <option value="júnior">Júnior</option>
+                <option value="pleno">Pleno</option>
+                <option value="sênior">Sênior</option>
+                
+            </select>
+
+            <button id="button" class="form__button--login" type="submit">Cadastre-se</button>
+
+            <a class="form__button--cadastrar" href="../login/index.html">Voltar</a>
+        </form>
+
+    </main>
+
+    <div id="tost" class="tostError displaNone">
+        
+        <span></span>
+
+    </div>
+
+    <button class="menu_amburguer">
+        <img src="../../src/imagens/menuHanburguer.png" alt="img">
+    </button>
+    
+</body>
+</html>

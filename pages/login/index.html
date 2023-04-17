@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/global.css">
+    <link rel="stylesheet" href="./style/index.css">
+
+    <script defer type="module" src="./scripts/index.js" ></script>
+
+    <title>Login</title>
+
+</head>
+<body>
+    
+    <header>
+        <nav>
+
+            <div class="header__div-1">
+                <div></div>
+                <h1>Gestão de empresas</h1>
+            </div>
+            
+            <div class="header__div-2">
+
+                <a href="../home/index.html" disabled class="button__home">Home</a>
+                <a href="../register/index.html"  class="button__cadastro">Cadastro</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <form>
+            <h2>Login</h2>
+
+            <span >Preencha os campos para realizar login</span>
+
+            <input name="email" placeholder="Seu e-mail" type="text">
+
+            <input name="password" placeholder="Sua senha" type="password" name="" id="">
+
+            <button id="button_login" class="form__button--login" type="submit">Login</button>
+
+            <span class="form__span-2">Ou</span>
+
+            <a href="../register/index.html" class="form__button--cadastrar">Cadastre-se</a>
+        </form>
+
+    </main>
+
+    <div id="tost" class="tostError displaNone">
+        
+        <span></span>
+
+    </div>
+
+    <button class="menu_amburguer">
+        <img src="../../src/imagens/menuHanburguer.png" alt="img">
+    </button>
+    
+</body>
+</html>

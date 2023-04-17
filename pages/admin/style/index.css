@@ -1,0 +1,195 @@
+
+
+body{
+    
+    box-sizing: border-box;
+    
+    width: 95vw;
+    height: 99vh;
+    max-width: 100vw;
+    
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+   
+    
+}
+
+body::-webkit-scrollbar {
+    width: 8px;             
+}
+  
+body::-webkit-scrollbar-track {
+background: rgb(255, 255, 255);        
+}
+  
+body::-webkit-scrollbar-thumb {
+background-color: var(--color-1);    
+border-radius: 8px;
+
+
+}
+
+ul::-webkit-scrollbar {
+    width: 5px;             
+}
+  
+ul::-webkit-scrollbar-track {
+background: rgb(255, 255, 255);        
+}
+  
+ul::-webkit-scrollbar-thumb {
+background-color:var(--color-1);    
+border-radius: 5px;   
+}
+
+
+header{
+
+    box-sizing: border-box;
+
+    width: 90%;
+    
+    background-color: white;
+
+    border-bottom: 2px solid rgba(228, 227, 225, 0.459); 
+    padding: 20px 0;
+
+    margin: 0 auto;
+}
+
+header nav{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    max-width: 1200px;
+}
+
+.header__div-1{
+   display: flex;
+
+   align-items: center;
+   gap: 10px;
+}
+
+.header__div-1 div{
+    background-color: blueviolet;
+    
+    width: 16px;
+    height: 16px;
+    
+    border-radius: 50%;
+}
+
+.header__div-1 h1{
+ font-size: var(--font-title-3);
+ font-weight: var(--font-weight-1);
+}
+
+.header__div-2{
+    display: flex;
+    gap: 5px;
+}
+
+
+.button__login{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 142px;
+    max-height: 48px;
+  
+     padding: 12px 27px; 
+
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-1);
+
+    color: var(--color-grey-5);
+    border: 2px solid var(--color-1);
+    background-color: var(--color-5);
+    color: var(--color-1);
+
+    opacity: 90%;
+
+    cursor: pointer;
+}
+
+
+
+/* Main */
+
+main{
+    width: 90%;
+    padding-bottom: 50px;
+    margin: 0 auto;
+
+}
+
+
+
+
+main nav{
+
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+main nav button{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   
+   width: 150px;
+   height: 48px;
+
+   position: relative;
+   background-color: var(--color-1);
+   color: var(--color-grey-5);
+   border: solid 2px var(--color-1);   
+}
+
+main nav button img{
+
+    position: absolute;
+    left: 15px;
+
+ }
+
+ main nav select{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    font-size: var(--font-text-1);
+    padding: 2px 20px;
+
+    border-radius: 20px;
+}
+
+main nav h2{
+
+    font-size: var(--font-title-2);
+    font-weight: var(--font-weight-1);
+
+    border-radius: 20px;
+
+
+}
+
+
